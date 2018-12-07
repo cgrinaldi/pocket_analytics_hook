@@ -1,0 +1,19 @@
+{
+  "name": "listener",
+  "version": "0.0.0",
+  "description": "Simple node app to listen to Github",
+  "main": "app.js",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node ."
+  },
+  "author": "Chris Rinaldi <cgrinaldi@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "express": "^4.16.4",
+    "node-local-tunnel": "^0.1.8",
+    "q": "^1.5.1"
+  }
+}
